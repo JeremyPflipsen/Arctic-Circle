@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Arctic-Circle/static/css/main.d7868ac8.chunk.css",
+    "main.js": "/Arctic-Circle/static/js/main.dff3bf22.chunk.js",
+    "main.js.map": "/Arctic-Circle/static/js/main.dff3bf22.chunk.js.map",
+    "runtime-main.js": "/Arctic-Circle/static/js/runtime-main.9f48a9f6.js",
+    "runtime-main.js.map": "/Arctic-Circle/static/js/runtime-main.9f48a9f6.js.map",
+    "static/js/2.aaa96da2.chunk.js": "/Arctic-Circle/static/js/2.aaa96da2.chunk.js",
+    "static/js/2.aaa96da2.chunk.js.map": "/Arctic-Circle/static/js/2.aaa96da2.chunk.js.map",
+    "static/js/3.c3f8af35.chunk.js": "/Arctic-Circle/static/js/3.c3f8af35.chunk.js",
+    "static/js/3.c3f8af35.chunk.js.map": "/Arctic-Circle/static/js/3.c3f8af35.chunk.js.map",
+    "index.html": "/Arctic-Circle/index.html",
+    "static/css/main.d7868ac8.chunk.css.map": "/Arctic-Circle/static/css/main.d7868ac8.chunk.css.map",
+    "static/js/2.aaa96da2.chunk.js.LICENSE.txt": "/Arctic-Circle/static/js/2.aaa96da2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f48a9f6.js",
+    "static/js/2.aaa96da2.chunk.js",
+    "static/css/main.d7868ac8.chunk.css",
+    "static/js/main.dff3bf22.chunk.js"
+  ]
+}
