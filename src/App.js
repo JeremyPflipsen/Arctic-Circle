@@ -50,7 +50,6 @@ class App extends React.Component {
       default:
         break
     }
-    // console.log(this.state.currStep % 4)
     this.setState({
       currStep: this.state.currStep + 1,
     })

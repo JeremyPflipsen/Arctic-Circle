@@ -4,7 +4,6 @@ import "./Block.css"
 export default class Block extends Component {
   render() {
     let { row, col, color, arrow } = this.props.block
-    console.log(row, col)
 
     if (arrow === "up" || arrow === "down") {
       return (

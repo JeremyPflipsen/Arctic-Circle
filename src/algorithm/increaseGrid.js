@@ -25,16 +25,19 @@ export default function increaseGrid() {
     currRow = []
   }
 
-  //shift all blocks down by 50px
-  let blocks = this.state.blocks //FIXME this doesn't work
-
-  // for (let i = 0; i < this.state.blocks.length; i++) {
-  //   blocks[i].ypos = blocks[i].ypos + this.state.nodeSize
-  // }
-
+  //shift all blocks down since grid is bigger
   this.setState({
     currSize: currSize + 1,
     grid: nodes,
-    blocks: blocks,
   })
+
+  //updates to state aren't sequential so we have to wait until grid has
+  //updated before we update blocks
+  setTimeout(
+    () =>
+      this.setState({
+        blocks: this.state.blocks,
+      }),
+    1
+  )
 }

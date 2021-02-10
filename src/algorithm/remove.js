@@ -14,6 +14,7 @@ export default function remove() {
             //blocks will collide so remove them
             if (i < j) {
               // this condition ensures the splicing happens in the right order and we don't skip any elements from shifting the array
+              //decrease i by 1 so you don't skip the next element at i+1
               blocks.splice(j, 1)
               blocks.splice(i, 1)
               i = i - 1
@@ -25,7 +26,6 @@ export default function remove() {
               j = j - 1
             }
 
-            //decrease i by 1 so you don't skip the next element at i+1
             //decrease blocksLength by 2 since you're removing 2 elements
             blocksLength = blocksLength - 2
           }
@@ -40,6 +40,7 @@ export default function remove() {
             //blocks will collide so remove them
             if (i < j) {
               // this condition ensures the splicing happens in the right order and we don't skip any elements from shifting the array
+              //decrease i by 1 so you don't skip the next element at i+1
               blocks.splice(j, 1)
               blocks.splice(i, 1)
               i = i - 1
@@ -51,7 +52,6 @@ export default function remove() {
               j = j - 1
             }
 
-            //decrease i by 1 so you don't skip the next element at i+1
             //decrease blocksLength by 2 since you're removing 2 elements
             blocksLength = blocksLength - 2
           }

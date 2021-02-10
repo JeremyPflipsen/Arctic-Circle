@@ -1,20 +1,13 @@
 export default function fill() {
   let blocks = this.state.blocks
   let grid = this.state.grid
-  // console.log(grid)
+
   //find empty squares
   for (let row = 0; row < grid.length - 1; row++) {
     for (let col = 0; col < grid[row].length; col++) {
-      // console.log(grid[row + 1][col])
       //find col of undernode
-      let undercol
-      for (undercol = 0; undercol < grid[row + 1].length; undercol++) {
-        if (grid[row + 1][undercol].col === grid[row][col].col) {
-          break
-        }
-      }
+      let undercol = grid[row + 1].length / 2 - 1 + grid[row][col].col
 
-      // console.log(row, col)
       try {
         if (
           !grid[row][col].full &
